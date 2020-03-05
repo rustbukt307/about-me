@@ -1,0 +1,60 @@
+body {
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	background-color: black;
+	background: url("https://i.imgur.com/U05K7CZ.jpg");
+	background-size: cover;
+	color: white;
+}
+h1 {
+	font-family: 'Press Start 2P', script;
+	text-decoration: underline;
+	color: #E90A87;
+	padding: 20px;
+	margin: 0 auto;
+}
+h2 {
+	font-family: 'Press Start 2P', script;
+	font-style: italic;
+	color: white;
+	font-size: 20px;
+}
+img {
+    margin: 40px 0px 0px 0px;
+    border: 10px solid #E90A87;
+    border-radius: 20px;
+}
+div {
+	text-align: center;
+	padding: 20px;
+}
+input {
+    padding: 10px;
+    background: black;
+    font-family: 'Press Start 2P', script;
+    color: #E90A87;
+}
+article {
+	padding: 20px;
+	margin: 0 auto;
+    border: 10px solid #E90A87;
+    border-radius: 20px;
+	background: rgba(0,0,0,0.5);
+	max-width: 700px;
+}
+h3 {
+	font-family: 'Press Start 2P', script;
+	color: #E90A87;
+}
+p {
+	text-align: left;
+}
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
